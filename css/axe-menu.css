@@ -1,0 +1,109 @@
+/*
+ *  Main CSS
+ *  author: Carlos Espinoza
+ */
+/*menu axe*/
+#top-left-menu-axe{
+	text-align:center;
+	float:left;
+	}
+#menu-axe{
+	position:absolute;
+	margin-top: 2px;		
+	margin-left: 30px;
+	font-size: 14px;
+	font-weight:bold;
+	color: #DFDBD2;
+	}
+#menu-img{
+	position:absolute;
+	font-size: 14px;
+	font-weight:bold;
+	color: #DFDBD2;
+	margin-top: 2px;
+	margin-left: 10px;
+	}
+/**/
+
+#top #top-right2{
+	float:left;
+	font-size:15px;
+}
+
+
+#top #top-right2 div{
+	float:left;
+	padding:0px 8px;
+	overflow:hidden;			
+}
+#top #top-right2 div .drop-down{
+	list-style-type:none;
+	background:#464641;
+	padding:0px 5px;
+	margin-top: 0px;
+	-moz-box-shadow: -1px 1px 5px #000000;
+	-webkit-box-shadow: -1px 1px 5px #000000;
+	box-shadow: -1px 1px 5px #000000;
+	position: absolute;
+	display:none;
+	z-index:10;
+}
+#top #top-right2 div .drop-down li.disabled{
+	color:#666;
+}
+#top #top-right2 div .drop-down li.disabled:hover{
+	background:#464641;
+	color:#666;
+}
+#top #top-right2 div .drop-down li:hover{
+	background:url(../img/top/drop-down-hover.jpg) repeat-x;
+	color:white;
+}
+#top #top-right2 div ul li.divider:hover{
+	background:#3d3c39;
+}
+#top #top-right2 #message .drop-down{
+	margin-left: -45px;
+	margin-top: 3px;
+   	width: 240px;
+}
+#top #top-right2 div img.disabled{opacity:0.4;filter:alpha(opacity=40)}
+#top #top-right2 div ul{
+	list-style-position:inside;
+}
+		
+#top #top-right2 div ul li{
+	height: 18px;
+	padding: 3px 3px 3px 15px;
+}
+		
+#top #top-right2 div ul li img{
+	margin-left:-10px;
+	margin-right:5px;
+	vertical-align: middle;
+}
+		
+#top #top-right2 div ul li.ticked{
+	list-style-image:url('../img/top/tic7pxk.png');
+	padding-left:0px;
+}
+#top #top-right2 div ul li.divider{
+	height:1px;
+	background:#3d3c39;
+	border-bottom:1px solid #484844;
+	padding:0px;
+	margin:4px 0px;
+}
+		
+#top #top-right2 #message{
+	padding-top:4px;
+}
+#top #top-right2 .selected{
+	background:url(../img/top/selected-bg.jpg) repeat-x;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-topright: 2px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}

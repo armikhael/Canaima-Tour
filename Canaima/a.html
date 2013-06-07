@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+<title>Ubuntu Start Page</title>
+<style type="text/css">
+body {
+    background: url(../img/cunaguaro/fondo_a.png);
+    font-family: ubuntu, ubuntubeta, 'Bitstream Vera Sans', 'DejaVu Sans', Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 auto;
+}
+button::-moz-focus-inner {
+    /* fix buttons in FF */
+    border: 0;
+    padding: 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Remove button margin in webkit */
+    button{
+        margin: 0;
+    }
+}   
+.acchide {
+    text-indent: -999em;
+    display: block;
+}
+.search-box {
+    width: 595px;
+    margin: 0 auto;
+    margin-top: 63px;
+}
+.ubuntu-branding {
+    background: url(../img/cunaguaro/cunaguaro_a.png) no-repeat;
+    background-position: 190px 0px;
+    background-color: transparent;
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+}
+.wrapper {
+    padding: 0;
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper h1 {
+    margin: 0;
+    padding: 0;
+}
+.logo a {
+    font-size: 1px;
+    display: block;
+    text-indent: -9999px;
+    background: url(../img/cunaguaro/Google-Logo.png) no-repeat;
+    background-position: 0px 0px;
+    margin: 0;
+    padding: 0;
+    top: 57px;
+    right: 105px;
+    height: 42px;
+    width: 112px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper input {
+    /* allows styling in webkit */
+    -webkit-appearance: textfield;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 32px;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #0ba2e8;
+}
+.inner {
+    display: inline-block;
+    margin: 0px auto 100px auto;
+}
+.inner form {
+    height: 32px;
+}
+.external-links {
+    background: #212121;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.external-links li {
+    height: 30px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 8px;
+    margin: 0 10px;
+}
+.external-links a {
+    text-decoration: none;
+    color: gray;
+    padding: 10px 0 10px 40px;
+}
+.external-links a::after {
+    content: " ›";
+    font-size: 16px;
+}
+.external-links a:hover {
+    color: #e24912;
+}
+.help-link, 
+.shop-link, 
+.community-link {
+    background: url(http://start.ubuntu.com/12.04/sprite.png) no-repeat;
+}
+.help-link {
+    background-position: -10px -450px;
+}
+.help-link:hover {
+    background-position: -10px -490px;
+}
+.shop-link {
+    background-position: -10px -368px;
+}
+.shop-link:hover {
+    background-position: -10px -410px;
+}
+.community-link {
+    background-position: -10px -528px;
+}
+.community-link:hover {
+    background-position: -10px -568px;
+}
+#sbtn {
+    margin: 0 3px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #4D90FE;
+    background: #4d90fe; /* Old browsers */
+    background: -moz-linear-gradient(top, #4d90fe 0%, #4787ed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4d90fe), color-stop(100%,#4787ed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #4d90fe 0%,#4787ed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #4d90fe 0%,#4787ed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #4d90fe 0%,#4787ed 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #4d90fe 0%,#4787ed 100%); /* W3C */
+    border: 1px solid #3079ED;
+    border-radius: 2px;
+    color: #FFFFFF;
+    -moz-user-select: none;
+    cursor: default;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#sspan {
+    background: url(../img/cunaguaro/search.png) no-repeat;
+    background-position: 0px 0px;
+    vertical-align: top;
+    display: inline-block;
+    height: 30px;
+    margin: 8px 8px;
+    width: 40px;
+}
+</style>
+</head>
+<body>
+    <div class="search-box">
+        <div class="ubuntu-branding"></div>
+        <div class="wrapper">
+            <div class="inner">
+                <h1 class="logo"><a href="http://www.google.com/">Google</a></h1>
+                <form method="get" class="search-form" action="http://www.google.com/search" name="search">
+                    <input name="q" x-webkit-speech="" id="sbi" type="search"><!-- eliminate whitespace
+                    --><button id="sbtn" type="submit"><span id="sspan"></span><span class="acchide">Search</span></button>
+                    <input name="ie" value="UTF-8" type="hidden">
+                    <input name="sa" value="Search" type="hidden">
+                    <input name="channel" value="fe" type="hidden">
+                    <input name="client" value="browser-ubuntu" type="hidden">
+                    <input title="search" name="hl" value="en" type="hidden">
+                </form>
+            </div>
+        </div>
+        
+        <ul class="external-links">
+            <li class="help-link"><a href="https://help.ubuntu.com/">Ubuntu help</a></li>
+            <li class="shop-link"><a href="http://shop.ubuntu.com/">Ubuntu shop</a></li>
+            <li class="community-link"><a href="http://www.ubuntu.com/community">Ubuntu community</a></li>
+        </ul>
+    </div><!-- close search-box -->
+<script type="text/javascript">
+//<![CDATA[
+(function focus_search() {
+    function search_select(e) {
+        if(e.value.length > 0) {
+            e.select();
+        }
+        e.select();
+    }
+
+    sbi = document.getElementById('sbi');
+    sbi.focus();
+    search_select(sbi);
+})();
+//]]>
+</script>
+
+
+</body></html>

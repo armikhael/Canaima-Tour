@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'jara';
+  font-style: normal;
+  font-weight: 400;
+  src: local('jara'), url(../font/jara.ttf) format('truetype');
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'jara';
+	font-size:15px;
+}
+.oe_overlay{
+	background:#000;
+	opacity:0;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+
+}
+ul.oe_menu{
+	list-style:none;
+	position:relative;
+	margin:0px 0px 0px 0px;
+	width:560px;
+	float:left;
+	clear:both;
+	z-index: 1001;
+
+}
+ul.oe_menu > li{
+	width:1px;
+	height:1px;
+	padding-bottom:2px;
+	float:left;
+	position:relative;
+
+
+}
+ul.oe_menu > li > a{
+	display:block;
+	background-color:transparent;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:15px;
+	width:60px;
+	height:30px;
+	padding:2px;
+	margin:0px 0px 0px 30px;/*0*/
+	text-shadow:0px 0px 1px #000;
+	opacity:0.8;
+
+}
+ul.oe_menu > li > a:hover,
+ul.oe_menu > li.selected > a{
+	background:transparent;
+	color:#fff;
+	/*opacity:1.0;*/
+
+}
+
+.oe_wrapper ul.hovered > li > a{
+	background:transparent;
+	/*text-shadow:0px 0px 1px #FFF;*/
+
+}
+ul.oe_menu div{
+	position:absolute;
+	top:35px;
+	left:15px;
+	background: url(../img/rect3150.png);
+	width:498px;
+	height:430px;
+	padding:30px;
+	display:none;
+	border-radius: 6px 6px 6px 6px;
+	border:5px solid url(../img/rect3150.png);
+}
+ul.oe_menu div ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding:2px 2px 2px 4px;
+	margin:2px;
+	display:block;
+	font-size:12px;
+}
+ul.oe_menu div ul.oe_full{
+	width:100%;
+
+}
+ul.oe_menu div ul li a:hover{
+	border-radius: 4px 4px 4px 4px;
+	background:url(../img/axe-menu/rect31502.png);
+	color:#fff;
+
+}
+ul.oe_menu li ul{
+	list-style:none;
+	float:left;
+	width: 150px;
+	margin-right:10px;
+
+}
+li.oe_heading{
+	color:#fff;
+	background: url(../img/axe-menu/rect31502.png);
+	font-size:16px;
+	margin-bottom:10px;
+	padding-bottom:6px;
+	text-align: center;
+	font-style: bold;
+}
+li.oe_heading1{
+	color:#fff;
+	font-size:15px;
+	font-style: bold;
+	margin-bottom:8px;
+}
+li.oe_heading2{
+	color:#fff;
+	font-size:16px;
+	margin-bottom:4px;
+	text-align: left;
+	padding-left: 10px;
+	font-style: bold;
+}
