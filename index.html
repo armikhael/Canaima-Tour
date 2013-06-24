@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Intro al Paseo Canaima</title>
-<META HTTP-EQUIV=Refresh CONTENT="8; URL=canaima-tour.html">
-<link rel="stylesheet" href="css/intro.css" />
-<script language="Javascript" type="text/javascript">
+	<title>Intro al Paseo en Canaima</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta HTTP-EQUIV=Refresh CONTENT="8; URL=canaima-tour.html">
+	<link rel="stylesheet" href="css/intro.css" />
+	<script type="text/javascript">
+		mis_imagenes = new Array(
+			"img/intro/D0000.png","img/intro/D0001.png","img/intro/D0002.png","img/intro/D0003.png",
+			"img/intro/D0004.png","img/intro/D0005.png","img/intro/D0006.png","img/intro/D0007.png",
+			"img/intro/D0008.png","img/intro/D0009.png","img/intro/D0010.png","img/intro/D0011.png",
+			"img/intro/D0012.png","img/intro/D0013.png","img/intro/D0014.png","img/intro/D0015.png",
+			"img/intro/D0016.png","img/intro/D0017.png","img/intro/D0018.png","img/intro/D0019.png",
+			"img/intro/D0020.png","img/intro/D0021.png","img/intro/D0022.png","img/intro/D0023.png",
+			"img/intro/D0024.png","img/intro/D0025.png","img/intro/D0026.png","img/intro/D0027.png",
+			"img/intro/D0028.png","img/intro/D0029.png","img/intro/D0030.png","img/intro/D0031.png",
+			"img/intro/D0032.png","img/intro/D0033.png","img/intro/D0034.png","img/intro/D0035.png",
+			"img/intro/D0036.png","img/intro/D0037.png","img/intro/D0038.png","img/intro/D0039.png",
+			"img/intro/D0040.png")
+		mi_imagen = 0
+		imgCt = mis_imagenes.length
 
-mis_imagenes = new Array("img/intro/D0000.png","img/intro/D0001.png","img/intro/D0002.png","img/intro/D0003.png","img/intro/D0004.png","img/intro/D0005.png","img/intro/D0006.png","img/intro/D0007.png","img/intro/D0008.png","img/intro/D0009.png","img/intro/D0010.png","img/intro/D0011.png","img/intro/D0012.png","img/intro/D0013.png","img/intro/D0014.png","img/intro/D0015.png","img/intro/D0016.png","img/intro/D0017.png","img/intro/D0018.png","img/intro/D0019.png","img/intro/D0020.png","img/intro/D0021.png","img/intro/D0022.png","img/intro/D0023.png","img/intro/D0024.png","img/intro/D0025.png","img/intro/D0026.png","img/intro/D0027.png","img/intro/D0028.png","img/intro/D0029.png","img/intro/D0030.png","img/intro/D0031.png","img/intro/D0032.png","img/intro/D0033.png","img/intro/D0034.png","img/intro/D0035.png","img/intro/D0036.png","img/intro/D0037.png","img/intro/D0038.png","img/intro/D0039.png","img/intro/D0040.png")
+		function preload() {
+			var preloaded = new Image()
+			var i = 0;
 
-mi_imagen = 0
-imgCt = mis_imagenes.length
+			for(i=0; i<=imgCt; i++)
+				preloaded.src = mis_imagenes[mi_imagen]
+		}
 
-function preload() {
-	var preloaded = new Image()
-	var i = 0;
+		function rotarimg(){
+			var image = new Image()
 
-	for(i=0; i<=imgCt; i++)
-		preloaded.src = mis_imagenes[mi_imagen]
-}
+			image.src = mis_imagenes[mi_imagen]
+			image.onload = function () {
+				document.images["rotar"].src = image.src
+			}
+			if (document.images){
+				mi_imagen++
+				if (mi_imagen == imgCt) {
+					mi_imagen = 0
+				}
+			}
+		}
 
-function rotarimg(){
-	var image = new Image()
-
-	image.src = mis_imagenes[mi_imagen]
-	image.onload = function () {
-		document.images["rotar"].src = image.src
-	}
-	if (document.images){
-		mi_imagen++
-		if (mi_imagen == imgCt) {mi_imagen = 0}
-	}
-}
-
-window.onload=function(){
-	preload();
-	setInterval(function(){rotarimg()},50)
-}
-
-</script>
+		window.onload=function(){
+			preload();
+			setInterval(function(){rotarimg()},50)
+		}
+	</script>
 </head>
 <body>
-<div id="rotar-img"><img name="rotar" id="rotar"/></div>
-<div id="logo"><img src="img/intro/logo-inicio.png" alt=""><div>
+	<div id="rotar-img">
+		<img name="rotar" id="rotar" src="#" alt="Cargando la intro al Paseo en línea de Canaima" />
+	</div>
+	<div id="logo">
+		<img src="img/intro/logo-inicio.png" alt="Cargando la intro al Paseo en línea de Canaima" />
+	</div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 /*
 * UbuntuOne system
-*  author: Carlos Espinoza
+*  author: Anthony Dillon
 */
 
 function UbuntuOneSystem($parent){

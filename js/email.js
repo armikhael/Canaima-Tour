@@ -1,6 +1,6 @@
 /*
 * Email object
-*  author: Carlos Espinoza
+*  author: Anthony Dillon
 */
 
 function Email($id, $folder, $subject, $body, $from, $to, $date, $cc){ 

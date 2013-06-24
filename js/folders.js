@@ -1,6 +1,6 @@
 /*
 * Folder object
-*  author: Carlos Espinoza
+*  author: Anthony Dillon
 */
 
 function Folder($name, $location){ 

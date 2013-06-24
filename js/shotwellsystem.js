@@ -1,6 +1,6 @@
 /*
  *  Shotwell System
- *  author: Carlos Espinoza
+ *  author: Anthony Dillon
  */
 
 function ShotwellSystem($parent){

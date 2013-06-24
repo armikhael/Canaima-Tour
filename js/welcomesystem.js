@@ -1,6 +1,6 @@
 /*
  *  Welcome System
- *  author: Carlos Espinoza
+ *  author: Anthony DIllon
  */
 
 function WelcomeSystem($parent){

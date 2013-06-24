@@ -1,6 +1,6 @@
 /*
 * System Overlay
-*  author: Carlos Espinoza
+*  author: Anthony Dillon
 */
 
 function SystemOverlay($parent){
