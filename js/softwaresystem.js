@@ -1,6 +1,6 @@
 /*
 * Software Centre System
-*  author: Carlos Espinoza
+*  author: Anthony Dillon
 */
 
 function SoftwareSystem($parent){

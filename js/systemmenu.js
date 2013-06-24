@@ -1,6 +1,6 @@
 /*
 * System Menu
-*  author: Carlos Espinoza
+*  author: Anthony Dillon
 */
 var scrollingTimer = null;
 function SystemMenu($parent){

@@ -1,6 +1,6 @@
 /*
  *  Main Script System
- *  author: Carlos Espinoza
+ *  author: Anthony Dillon
  */
 
 var _this = this;

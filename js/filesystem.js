@@ -1,6 +1,6 @@
 /*
 * File system
-* author: Carlos Espinoza
+* author: Anthony Dillon
 */
 
 function FileSystem($parent, $startingDir){

@@ -1,6 +1,6 @@
 /*
 * Firefox system
-* 	author: Carlos Espinoza
+* 	author: Anthony Dillon
 */
 
 function FirefoxSystem($parent){
