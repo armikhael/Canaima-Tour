@@ -1,6 +1,6 @@
 /*
  *  Shut Down System
- *  author: Carlos Espinoza
+ *  author: Anthony Dillon
  */
 
 function ShutdownSystem(){

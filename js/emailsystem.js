@@ -1,6 +1,6 @@
 /*
 * Email system
-*  author: Carlos Espinoza
+*  author: Anthony Dillon
 */
 
 function EmailSystem($parent){

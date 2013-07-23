@@ -1,6 +1,6 @@
 /*
  *  Movie Player System
- *  author: Carlos Espinoza
+ *  author: Anthony Dillon
  */
 
 function MoviePlayerSystem($parent){

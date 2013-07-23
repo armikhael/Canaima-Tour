@@ -1,6 +1,6 @@
 /*
  *  Guided Tour System
- *  author: Carlos Espinoza
+ *  author: Anthony Dillon
  */
 
 function GuidedTourSystem($parent){

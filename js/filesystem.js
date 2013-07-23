@@ -1,6 +1,6 @@
 /*
 * File system
-* author: Carlos Espinoza
+* author: Anthony Dillon
 */
 
 function FileSystem($parent, $startingDir){
@@ -216,9 +216,9 @@ function FileSystem($parent, $startingDir){
 					detailsCount++;
 				}
 			}
-			$('.selected-details').text('"'+detailsName+'" selected (containing '+detailsCount+' items)');
+			$('.selected-details').text('"'+detailsName+'" seleccionado (contienen '+detailsCount+' elementos)');
 		}else{
-			$('.selected-details').text('"'+detailsName+'" selected ('+list_of_files[$index].size()+')');
+			$('.selected-details').text('"'+detailsName+'" seleccionado ('+list_of_files[$index].size()+')');
 		}
 		
 		$('.selected-details').show();
