@@ -1,6 +1,7 @@
 /* 
  *  File Object
  *  author: Anthony Dillon
+ *  Maintainer : Carlos Espinoza
  */
 
 function File($id, $url, $type, $name, $size, $date ,$location){

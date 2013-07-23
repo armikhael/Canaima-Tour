@@ -1,6 +1,7 @@
 /*
 * System Menu
 *  author: Anthony Dillon
+*  Maintainer : Carlos Espinoza
 */
 var scrollingTimer = null;
 function SystemMenu($parent){

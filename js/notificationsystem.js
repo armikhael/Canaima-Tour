@@ -1,6 +1,7 @@
 /*
  *  Notification System
  *  author: Anthony Dillon
+ *  Maintainer : Carlos Espinoza
  */
 
 function NotificationSystem(){

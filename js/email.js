@@ -1,6 +1,7 @@
 /*
 * Email object
 *  author: Anthony Dillon
+*  Maintainer : Carlos Espinoza
 */
 
 function Email($id, $folder, $subject, $body, $from, $to, $date, $cc){ 

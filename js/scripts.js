@@ -1,6 +1,7 @@
 /*
  *  Main Script System
  *  author: Anthony Dillon
+ *  Maintainer : Carlos Espinoza
  */
 
 var _this = this;

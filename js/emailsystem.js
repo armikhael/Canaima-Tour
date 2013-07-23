@@ -1,6 +1,7 @@
 /*
 * Email system
 *  author: Anthony Dillon
+*  Maintainer : Carlos Espinoza
 */
 
 function EmailSystem($parent){

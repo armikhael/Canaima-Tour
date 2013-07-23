@@ -1,6 +1,7 @@
 /*
  *  System Settings
  *  author: Anthony Dillon
+ *  Maintainer : Carlos Espinoza
  */
 
 function SystemSettings($parent){

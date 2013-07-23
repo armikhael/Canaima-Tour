@@ -1,6 +1,7 @@
 /*
 * Folder object
 *  author: Anthony Dillon
+*  Maintainer : Carlos Espinoza
 */
 
 function Folder($name, $location){ 
