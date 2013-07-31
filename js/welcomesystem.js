@@ -114,7 +114,7 @@ function WelcomeSystem($parent){
 			window.location.replace("http://canaima.softwarelibre.gob.ve/descargas/canaima-popular/versiones/4.0");
 		});
 		$('#tour-guide .explore-to-exit').bind('click',function(){
-			window.location.replace("http://canaima.softwarelibre.gob.ve/");
+			window.location.replace("apagar.html");
 		})
 		/*if($('#tour-guide').is(':visible')){
 			$('.explore-to-welcome').css('bottom',210);

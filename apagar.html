@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Maintainer : Carlos Espinoza -->
+<!-- Autor: Carlos Espinoza -->
+<html>
+<head>
+	<title>Apagar al Paseo en Canaima</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta HTTP-EQUIV=Refresh CONTENT="8; URL=http://canaima.softwarelibre.gob.ve/">
+	<link rel="stylesheet" href="css/apagar.css" />
+	<script type="text/javascript">
+		mis_imagenes = new Array(
+			"img/apagar/logo-fin-1.png","img/apagar/logo-fin-2.png","img/apagar/logo-fin-3.png",
+			"img/apagar/logo-fin-2.png","img/apagar/logo-fin-1.png","img/apagar/logo-fin-4.png")
+		mi_imagen = 0
+		imgCt = mis_imagenes.length
+
+		function preload() {
+			var preloaded = new Image()
+			var i = 0;
+
+			for(i=0; i<=imgCt; i++)
+				preloaded.src = mis_imagenes[mi_imagen]
+		}
+
+		function rotarimg(){
+			var image = new Image()
+
+			image.src = mis_imagenes[mi_imagen]
+			image.onload = function () {
+				document.images["rotar"].src = image.src
+			}
+			if (document.images){
+				mi_imagen++
+				if (mi_imagen == imgCt) {
+					mi_imagen = 0
+				}
+			}
+		}
+		window.onload=function(){
+			preload();
+			setInterval(function(){rotarimg()},250)
+		}
+	</script>
+</head>
+<body>
+	<a>Apagando la maquina... Recuerda:¡Ahorrar energía es salvar al planeta!</a>
+	<div id="rotar-img">
+		<img name="rotar" id="rotar" src="#" alt="Cargando apagar al Paseo en línea de Canaima" />
+	</div>
+</body>
+</html>

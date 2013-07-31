@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'jara';
+  font-style: normal;
+  font-weight: 400;
+  src: local('jara'), url(../font/jara.ttf) format('truetype');
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: black;
+	background: #000000 no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:white;
+	overflow: hidden;
+	overflow-x: hidden;
+	width:100%;
+	height:100%;
+}
+
+#rotar-img {
+	padding: 40px;
+	text-align: center;
+	z-index: 10;
+}
+
+a{
+	font-family: 'jara';
+	padding: 5px 5px 5px 5px;
+}
+

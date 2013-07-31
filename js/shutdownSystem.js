@@ -30,7 +30,7 @@ function ShutdownSystem(){
 	}
 	
 	this.shutdownClicked = function(){
-		window.location.href = 'http://canaima.softwarelibre.gob.ve/';
+		window.location.href = 'apagar.html';
 	}
 	
 	this.open = function(){
