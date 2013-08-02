@@ -414,7 +414,7 @@ function setupShotwellSystem(){
 	//alert(fileLibrary[16].location())
 	//alert(fileLibrary[16].())
 
-	//fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', _happyness_title_, _music_size_, _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', _happyness_title_, _music_size_, _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	
 	shotwellSystem = new ShotwellSystem(this);
 	shotwellSystem.init();
