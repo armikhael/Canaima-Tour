@@ -415,6 +415,15 @@ function setupShotwellSystem(){
 	//alert(fileLibrary[16].())
 
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', _happyness_title_, _music_size_, _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Venezuela', '5.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Alcaraban compañero', '4.7MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Viejo coplero', '6.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Alí Primera', '3.2MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Amilcar Briceño', '7.3MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Chichiriviche', '8.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Dame pa Matala', '6.5MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Silvio Rodríguez', '9.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Victor Jara', '6.3MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	
 	shotwellSystem = new ShotwellSystem(this);
 	shotwellSystem.init();
