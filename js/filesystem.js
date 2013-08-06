@@ -199,6 +199,9 @@ function FileSystem($parent, $startingDir){
 			  	case 'audio':
 			  		_parent.errorMessage.open();
 			  	break;
+			  	case 'iso':
+			  		
+			  	break;
 			  	default:
 					_parent.errorMessage.open();
 			  	break;
@@ -372,9 +375,9 @@ function FileSystem($parent, $startingDir){
 	this.resize = function(){
 		folderContentsWidth = $('.folder').width() - 146;
 		folderListHeight = $('.folder').height() - 51;
-		$('.folder .folder-list .list').css('height',folderListHeight-30);
-		$('.folder .folder-contents .contents').css('height',folderListHeight - 17);
-		$('.folder .folder-contents .contents').css('width',folderContentsWidth);
+		//$('.folder .folder-list .list').css('height',folderListHeight-30);
+		//$('.folder .folder-contents .contents').css('height',folderListHeight - 17);
+		//$('.folder .folder-contents .contents').css('width',folderContentsWidth);
 	}
 }
 

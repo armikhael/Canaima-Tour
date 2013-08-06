@@ -7,15 +7,16 @@
 #folder-window .buttons{
 	width:85px;
 	height:36px;
-	margin-top: 3px;
+	margin-top: 1px;
 	float:right;
 }
 
 #folder-window .bottom-buttons{
 	background: #e3dfd0;
 	height:37px;
-	width:100%;
+	width:580px;
 	border-bottom: 1px solid #e6e2cd;
+	margin-left: 150px;
 }
 
 #folder-window .buttons div, #folder-window .bottom-buttons div{
@@ -51,8 +52,8 @@
 
 #folder-window .bottom-buttons div.selected{
 	font-weight:bold;
-	background:#91908b;
-	border: 1px solid #474747;
+	background:#b3b4b1;
+	border: 1px solid #838581;
 	background-position: 0 -29px;
 }
 #folder-window .bottom-buttons div img{

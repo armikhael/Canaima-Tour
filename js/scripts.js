@@ -413,7 +413,8 @@ function setupShotwellSystem(){
 	//alert(fileLibrary[16].date())
 	//alert(fileLibrary[16].location())
 	//alert(fileLibrary[16].())
-
+	
+	//Música
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', _happyness_title_, _music_size_, _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Venezuela', '5.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Alcaraban compañero', '4.7MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
@@ -424,6 +425,51 @@ function setupShotwellSystem(){
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Dame pa Matala', '6.5MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Silvio Rodríguez', '9.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Victor Jara', '6.3MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	
+	//Descarga
+	fileLibrary.push(new File(fileLibrary.length,'','tar', 'juegos.tar.gz', '', '25 Marzo 2013', '/'+_home_folder_+'/'+_downloads_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','txt', 'Documento', '30KB', '25 Marzo 2013', '/'+_home_folder_+'/'+_downloads_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','rar', 'Documentos.rar', ' 2.9MB', '16 septiembre 2012', '/'+_home_folder_+'/'+_downloads_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','zip', 'html.zip', ' 4.9MB', '2 febrero 2012', '/'+_home_folder_+'/'+_downloads_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','zip', 'Águila.zip', ' 1.2MB', '2 Marzo 2012', '/'+_home_folder_+'/'+_downloads_folder_));
+
+	fileLibrary.push(new File(fileLibrary.length,'','deb', 'Canaima-instalador.deb', '1.9MB', '12 julio 2013', '/'+_home_folder_+'/'+_downloads_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','deb', 'Canaima-notas-gnome.deb', ' 243kB', '1 julio 2013', '/'+_home_folder_+'/'+_downloads_folder_));
+	
+	fileLibrary.push(new File(fileLibrary.length,'','iso_i386', 'Canaima-popular-4.0_i386.iso', '698MB', '2 agosto 2013', '/'+_home_folder_+'/'+_downloads_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','iso_amd64', 'Canaima-popular-4.0_amd64.iso', ' 700MB', '2 agosto 2013', '/'+_home_folder_+'/'+_downloads_folder_));
+	
+	//Escritorio
+	fileLibrary.push(new File(fileLibrary.length,'','escr_desktop', 'Desktop', '', '2 Marzo 2012', '/'+_home_folder_+'/'+_desktop_folder_));
+	
+	//Documentos/Backup
+	fileLibrary.push(new File(fileLibrary.length,'','tar', 'backup.tar.gz', '2GB', '25 Marzo 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_backup_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','tar', 'Canaima.tar.gz', '700MB', '25 Marzo 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_backup_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','tar', 'Canaima-Educativo.tar.gz', '1GB', '25 Marzo 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_backup_folder_));
+	
+	//Documentos/Local
+	fileLibrary.push(new File(fileLibrary.length,'','txt', 'Archivo', '10kB', '25 Marzo 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_local_folder_));
+	
+	//Documentos/Canaima/Popular
+	fileLibrary.push(new File(fileLibrary.length,'','ppt', 'Canaima', '5MB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_work_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','ppt', 'Presentación', '2.4MB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_work_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','cal', 'Canaima', '100KB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_work_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','cal', 'Cuadro', '930KB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_work_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','odt', 'Cayapa', '1.8MB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_work_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','odt', 'Tribus', '504KB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_work_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','odt', 'Canaima', '603KB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_work_folder_));
+	
+	//Documentos/Canaima/Educativo
+	fileLibrary.push(new File(fileLibrary.length,'','ppt', 'Canaima', '5MB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_branches_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','ppt', 'Canaima-Educativo', '5MB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_branches_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','ppt', 'Presentación', '2.4MB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_branches_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','cal', 'Canaima', '100KB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_branches_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','cal', 'Canaima-Educativo', '100KB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_branches_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','cal', 'Cuadro', '930KB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_branches_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','odt', 'Cayapa', '1.8MB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_branches_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','odt', 'Tribus', '504KB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_branches_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','odt', 'Canaima', '603KB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_branches_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','odt', 'Canaima-Educativo', '603KB', '1 agosto 2013', '/'+_home_folder_+'/'+_documents_folder_+'/'+_canonical_folder_+'/'+_branches_folder_));
 	
 	shotwellSystem = new ShotwellSystem(this);
 	shotwellSystem.init();
