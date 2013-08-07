@@ -15,7 +15,7 @@ function UbuntuOneSystem($parent){
 		});
 		$('#ubuntuone-window .content .body .ubuntuone-buttons .join-now').bind('click', function(){
 			//_this.close();
-			//_parent.errorMessage.open();
+			_parent.errorMessage.open();
 			_this.openUbuntu1Page();
 		});
 		
@@ -48,7 +48,7 @@ function UbuntuOneSystem($parent){
 	this.close = function(){
 		if(_isOpen){
 			_parent.openWindows['ubuntuone-window'] = false;
-			$('#ubuntuone-window .control .close').unbind('click');
+			//$('#ubuntuone-window .control .close').unbind('click');
 			$('#ubuntuone-window').hide();
 			_parent.systemMenu.closeWindow('uone');
 			_isOpen = false;

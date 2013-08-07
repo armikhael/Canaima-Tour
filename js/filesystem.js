@@ -202,6 +202,15 @@ function FileSystem($parent, $startingDir){
 			  	case 'iso':
 			  		
 			  	break;
+			  	case 'odt':
+			  		_parent.libreSystem.open('writer');
+			  	break;
+			  	case 'cal':
+					_parent.libreSystem.open('calc');
+			  	break;
+			  	case 'impress':
+					_parent.ubuntuOneSystem.open();
+			  	break;
 			  	default:
 					_parent.errorMessage.open();
 			  	break;

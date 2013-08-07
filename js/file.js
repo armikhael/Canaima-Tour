@@ -122,11 +122,11 @@ function File($id, $url, $type, $name, $size, $date ,$location){
 					return  '<div class="file '+$type+'" data-type="cal"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
 				}
 			break;
-			case 'ppt':
+			case 'impress':
 				if($type == 'display-icon'){
-					return  '<div class="file '+$type+'" data-type="ppt"  data-id='+$id+'><p><img src="img/folder/ppt.png" /></p><span>'+_name+'</span></div>';
+					return  '<div class="file '+$type+'" data-type="impress"  data-id='+$id+'><p><img src="img/folder/ppt.png" /></p><span>'+_name+'</span></div>';
 				}else{
-					return  '<div class="file '+$type+'" data-type="ppt"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
+					return  '<div class="file '+$type+'" data-type="impress"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
 				}
 			break;
 			case 'txt':
