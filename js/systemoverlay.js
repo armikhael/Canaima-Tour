@@ -448,6 +448,9 @@ function SystemOverlay($parent){
 				case 'movieplayer':
 					_parent.moviePlayerSystem.open();
 				break;
+				case 'rythenbox':
+					_parent.rythenboxSystem.open();
+				break;
 				default:
 					_parent.errorMessage.open();
 				break;

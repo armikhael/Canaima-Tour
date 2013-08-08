@@ -188,6 +188,13 @@ function SystemMenu($parent){
 				 }
 				 $('#movieplayer ').trigger('mousedown');
 			break;
+			case 'rythenbox':
+				var div = $('#rythenbox');
+				 if(!div.is(':visible')){
+				 	_parent.rythenboxSystem.open();
+				 }
+				 $('#rythenbox ').trigger('mousedown');
+			break;
 			case 'rubbish':
 				var div = $('.folder');
 				 if(!div.is(':visible')){

@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="css/welcome.css" type="text/css">
 	<link rel="stylesheet" href="css/shutdown.css" type="text/css">
 	<link rel="stylesheet" href="css/movieplayer.css" type="text/css">
+	<link rel="stylesheet" href="css/rythenbox.css" type="text/css">
 	<link rel="stylesheet" href="css/libre.css" type="text/css">
 	<link rel="stylesheet" href="css/notification.css" type="text/css">
 	<link rel="stylesheet" href="css/software-centre.css" type="text/css">
@@ -358,6 +359,8 @@
 				</li>
 				<li class="movieplayer temp"><span>Movie Player</span>
 				</li>
+				<li class="rythenbox temp"><span>Rythenbox</span>
+				</li>
 				<!--<li class="workspace"><span>Workspace Switcher</span></li>-->
 				<li class="rubbish bottom">
 					<span>Papelera</span>
@@ -417,7 +420,20 @@
 				</div>
 			</div>
 		</div>
-
+		<!--############################################################################# -->
+		<div style="z-index: 2;" id="rythenbox" class="rythenbox window">
+			<div class="control">
+				<div class="close"></div>
+				<div class="max"></div>
+				<div class="min"></div>	
+				<div class="window-title">
+					Rythenbox
+				</div>
+			</div>
+			<div class="container">
+				
+			</div>
+		</div>
 		
 		<div style="display: none; z-index: 2;" id="ubuntuone-window" class="uone window">
 			<div class="control">
@@ -1284,6 +1300,14 @@ justo. Curabitur convallis elementum pellentesque. Duis sit amet arcu ac
 					Usted puede ver todas sus películas favoritas y vídeos, DVD, descargas y películas.
 				</p>
 			</div>
+			<div style="display: none;" class="guide-container rythenbox">
+				<div class="guide-logo"><img src="img/tourguide/video-small.png" alt="">
+				</div>
+				<h3>Rythenbox</h3>
+				<p>
+					Reproduce todas tus canciones favoritas.
+				</p>
+			</div>
 			<div class=" tour-buttons">
 				<div class="explore-to-welcome">Bienvenido</div>
 				<div class="explore-to-download">Descarga Canaima</div>
@@ -1720,6 +1744,7 @@ where time behaves strangely; observe, learn from, and then master these
 		<script type="text/javascript" src="js/shotwellsystem.js"></script>
 		<script type="text/javascript" src="js/shutdownSystem.js"></script>
 		<script type="text/javascript" src="js/movieplayersystem.js"></script>
+		<script type="text/javascript" src="js/rythenbox.js"></script>
 		<script type="text/javascript" src="js/libresystem.js"></script>
 		<script type="text/javascript" src="js/softwaresystem.js"></script>
 		<script type="text/javascript" src="js/notificationsystem.js"></script>

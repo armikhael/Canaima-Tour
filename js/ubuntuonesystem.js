@@ -1,6 +1,7 @@
 /*
 * UbuntuOne system
 *  author: Anthony Dillon
+*  Maintainer : Carlos Espinoza
 */
 
 function UbuntuOneSystem($parent){
@@ -15,7 +16,7 @@ function UbuntuOneSystem($parent){
 		});
 		$('#ubuntuone-window .content .body .ubuntuone-buttons .join-now').bind('click', function(){
 			//_this.close();
-			_parent.errorMessage.open();
+			//_parent.errorMessage.open();
 			_this.openUbuntu1Page();
 		});
 		

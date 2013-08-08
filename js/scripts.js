@@ -24,6 +24,7 @@ var currentSelectedFullscreen = false;
 var shotwellSystem = null;
 var welcomeSystem = null;
 var moviePlayerSystem = null;
+var RythenboxSystem = null;
 var guidedTourSystem = null;
 var notificationSystem = null;
 var softwareSystem = null;
@@ -59,6 +60,7 @@ function setup(){
 	setupFileSystem();
 	setupShutdownSystem();
 	setupMoviePlayerSystem();
+	setupRythenboxSystem();
 	setupLibreSystem();
 	setupNotificationSystem();
 	setupSoftwareSystem();
@@ -339,6 +341,10 @@ function setupMoviePlayerSystem(){
 	moviePlayerSystem = new MoviePlayerSystem(this);
 	moviePlayerSystem.init();
 }
+function setupRythenboxSystem(){
+	rythenboxSystem = new RythenboxSystem(this);
+	rythenboxSystem.init();
+}
 
 function setupEmailSystem(){
 	emailSystem = new EmailSystem(this);
@@ -379,6 +385,7 @@ function closeAllWindows($tourIndex){
 	libreSystem.close('impress');
 	softwareSystem.close();
 	moviePlayerSystem.close();
+	rythenboxSystem.close();
 	guidedTourSystem.setIndex(_tourIndex);
 }
 

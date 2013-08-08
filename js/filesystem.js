@@ -197,7 +197,7 @@ function FileSystem($parent, $startingDir){
 			  		_parent.moviePlayerSystem.addVideo();
 			  	break;
 			  	case 'audio':
-			  		_parent.errorMessage.open();
+			  		_parent.rythenboxSystem.open();
 			  	break;
 			  	case 'iso':
 			  		

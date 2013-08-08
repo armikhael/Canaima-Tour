@@ -256,6 +256,9 @@
 		#menu .movieplayer{
 			background-image:url(../img/menu/icon-movieplayer.png);
 		}
+		#menu .rythenbox{
+			background-image:url(../img/menu/icon-rhythmbox.png);
+		}
 		#menu .shotwell{
 			background-image:url(../img/menu/icon-shotwell.png);
 		}

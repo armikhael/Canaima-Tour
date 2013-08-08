@@ -93,6 +93,12 @@ function WelcomeSystem($parent){
 				_parent.systemMenu.handleMenuClick('movieplayer');
 				_parent.moviePlayerSystem.addVideo();
 			break;
+			case 'watch-video':
+				$('#welcome').hide();
+				_isOpen = false;
+				_parent.guidedTourSystem.setCurrentIndex(9);
+				_parent.systemMenu.handleMenuClick('rythenbox');
+			break;
 			case 'explore-mode':
 				$('#welcome').hide();
 				_isOpen = false;
