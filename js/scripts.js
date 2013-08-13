@@ -423,7 +423,6 @@ function setupShotwellSystem(){
 	
 	//Música
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', _happyness_title_, _music_size_, _music_date_, '/'+_home_folder_+'/'+_music_folder_));
-	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Venezuela', '5.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Alcaraban compañero', '4.7MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Viejo coplero', '6.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Alí Primera', '3.2MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
@@ -431,7 +430,9 @@ function setupShotwellSystem(){
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Chichiriviche', '8.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Dame pa Matala', '6.5MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Silvio Rodríguez', '9.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
-	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Victor Jara', '6.3MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Victor Soguero', '6.3MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Alma Llanera', '9.3MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Venezuela', '5.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	
 	//Descarga
 	fileLibrary.push(new File(fileLibrary.length,'','tar', 'juegos.tar.gz', '', '25 Marzo 2013', '/'+_home_folder_+'/'+_downloads_folder_));
