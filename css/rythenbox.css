@@ -118,3 +118,6 @@
 	z-index:2;
 }
 
+iframe {
+	border: none;
+}
