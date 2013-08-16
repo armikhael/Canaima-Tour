@@ -434,6 +434,17 @@ function setupShotwellSystem(){
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Alma Llanera', '9.3MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'../audio/preview.mp3','audio', 'Venezuela', '5.8MB', _music_date_, '/'+_home_folder_+'/'+_music_folder_));
 	
+	//Red
+	fileLibrary.push(new File(fileLibrary.length,'','red', 'Red de Windows', '', '25 Marzo 2013', '/'+_red_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','frandesk', 'FRANDESK', '', '25 Marzo 2013', '/'+_red_folder_));
+	
+	//Equipo
+	fileLibrary.push(new File(fileLibrary.length,'','system_file', 'Sistema de archivos', '', '25 Marzo 2013', '/'+_equipo_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','usb', 'Unidad de USB', '', '25 Marzo 2013', '/'+_equipo_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','dvd', 'Unidad de CD/DVD', '', '25 Marzo 2013', '/'+_equipo_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','disco', 'Disco duro 500GB', '', '25 Marzo 2013', '/'+_equipo_folder_));
+	fileLibrary.push(new File(fileLibrary.length,'','disco', 'Disco duro 1TB: Sistema de archivos', '', '25 Marzo 2013', '/'+_equipo_folder_));
+	
 	//Descarga
 	fileLibrary.push(new File(fileLibrary.length,'','tar', 'juegos.tar.gz', '', '25 Marzo 2013', '/'+_home_folder_+'/'+_downloads_folder_));
 	fileLibrary.push(new File(fileLibrary.length,'','txt', 'Documento', '30KB', '25 Marzo 2013', '/'+_home_folder_+'/'+_downloads_folder_));

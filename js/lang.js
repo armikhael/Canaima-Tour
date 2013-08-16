@@ -46,6 +46,8 @@ var _local_folder_ = $.trim(hiddenTranslation.find('._local_folder_').text());
 var _work_folder_ = $.trim(hiddenTranslation.find('._work_folder_').text());
 var _branches_folder_ = $.trim(hiddenTranslation.find('._branches_folder_').text());
 var _rubbish_bin_folder_ = $.trim(hiddenTranslation.find('._rubbish_bin_folder_').text());
+var _equipo_folder_ = $.trim(hiddenTranslation.find('._equipo_folder_').text());
+var _red_folder_ = $.trim(hiddenTranslation.find('._red_folder_').text());
 
 /*
  * Software Center System

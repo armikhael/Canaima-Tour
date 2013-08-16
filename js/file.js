@@ -136,6 +136,48 @@ function File($id, $url, $type, $name, $size, $date ,$location){
 					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
 				}
 			break;
+			case 'disco':
+				if($type == 'display-icon'){
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p><img src="img/folder/disco.png" /></p><span>'+_name+'</span></div>';
+				}else{
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
+				}
+			break;
+			case 'dvd':
+				if($type == 'display-icon'){
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p><img src="img/folder/dvd.png" /></p><span>'+_name+'</span></div>';
+				}else{
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
+				}
+			break;
+			case 'usb':
+				if($type == 'display-icon'){
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p><img src="img/folder/usb.png" /></p><span>'+_name+'</span></div>';
+				}else{
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
+				}
+			break;
+			case 'system_file':
+				if($type == 'display-icon'){
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p><img src="img/folder/sistema_archivo.png" /></p><span>'+_name+'</span></div>';
+				}else{
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
+				}
+			break;
+			case 'red':
+				if($type == 'display-icon'){
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p><img src="img/folder/red.png" /></p><span>'+_name+'</span></div>';
+				}else{
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
+				}
+			break;
+			case 'frandesk':
+				if($type == 'display-icon'){
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p><img src="img/folder/frandesk.png" /></p><span>'+_name+'</span></div>';
+				}else{
+					return  '<div class="file '+$type+'" data-type="txt"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
+				}
+			break;
 			default:
 				if($type == 'display-icon'){
 					return  '<div class="file '+$type+'" data-type="unknown"  data-id='+$id+'><p><img src="img/folder/unknown.png" /></p><span>'+_name+'</span></div>';

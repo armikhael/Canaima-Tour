@@ -59,18 +59,18 @@
 					<div>
 						<ul>
 							<li class="oe_heading1">Lugares</li>
-							<li><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#browse-files"><img src="img/axe-menu/computer.png" alt=""> Equipo</a></li>
-							<li><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#browse-files"><img src="img/axe-menu/folder_home.png" alt=""> Carpeta personal</a></li>
-							<li><a href="#"><img src="img/axe-menu/user-desktop.png" alt=""> Escritorio</a></li>
-							<li><a href="#"><img src="img/axe-menu/gtk-network.png" alt=""> Red</a></li>
+							<li><a href="javascript:fileSystem = new FileSystem(this,'/'+_home_folder_);fileSystem.init();fileSystem.updateDir('/'+_equipo_folder_);fileSystem.open();"><img src="img/axe-menu/computer.png" alt=""> Equipo</a></li>
+							<li><a href="javascript:fileSystem = new FileSystem(this,'/'+_home_folder_);fileSystem.init();fileSystem.updateDir('/'+_home_folder_);fileSystem.open();"><img src="img/axe-menu/folder_home.png" alt=""> Carpeta personal</a></li>
+							<li><a href="javascript:fileSystem = new FileSystem(this,'/'+_home_folder_);fileSystem.init();fileSystem.updateDir('/'+_home_folder_+'/'+_desktop_folder_);fileSystem.open();"><img src="img/axe-menu/user-desktop.png" alt=""> Escritorio</a></li>
+							<li><a href="javascript:fileSystem = new FileSystem(this,'/'+_home_folder_);fileSystem.init();fileSystem.updateDir('/'+_red_folder_);fileSystem.open();"><img src="img/axe-menu/gtk-network.png" alt=""> Red</a></li>
 							<li><a href="#"> </a></li>
 							
 							<li class="oe_heading1">Marcadores</li>
-							<li><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#browse-files"><img src="img/axe-menu/folder-documents.png" alt=""> Documentos</a></li>
-							<li><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#browse-files"><img src="img/axe-menu/folder-music.png" alt=""> Música</a><li>
-							<li><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#browse-files"><img src="img/axe-menu/folder-pictures.png" alt=""> Imágenes</a><li>
-							<li><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#browse-files"><img src="img/axe-menu/folder-videos.png" alt=""> Vídeos</a><li>
-							<li><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#browse-files"><img src="img/axe-menu/folder-download.png" alt=""> Descargas</a><li>
+							<li><a href="javascript:fileSystem = new FileSystem(this,'/'+_home_folder_);fileSystem.init();fileSystem.updateDir('/'+_home_folder_+'/'+_documents_folder_);fileSystem.open();"><img src="img/axe-menu/folder-documents.png" alt=""> Documentos</a></li>
+							<li><a href="javascript:fileSystem = new FileSystem(this,'/'+_home_folder_);fileSystem.init();fileSystem.updateDir('/'+_home_folder_+'/'+_music_folder_);fileSystem.open();"><img src="img/axe-menu/folder-music.png" alt=""> Música</a><li>
+							<li><a href="javascript:fileSystem = new FileSystem(this,'/'+_home_folder_);fileSystem.init();fileSystem.updateDir('/'+_home_folder_+'/'+_pictures_folder_);fileSystem.open();"><img src="img/axe-menu/folder-pictures.png" alt=""> Imágenes</a><li>
+							<li><a href="javascript:fileSystem = new FileSystem(this,'/'+_home_folder_);fileSystem.init();fileSystem.updateDir('/'+_home_folder_+'/'+_videos_folder_);fileSystem.open();"><img src="img/axe-menu/folder-videos.png" alt=""> Vídeos</a><li>
+							<li><a href="javascript:fileSystem = new FileSystem(this,'/'+_home_folder_);fileSystem.init();fileSystem.updateDir('/'+_home_folder_+'/'+_downloads_folder_);fileSystem.open();"><img src="img/axe-menu/folder-download.png" alt=""> Descargas</a><li>
 							<li><a href="#"> </a><li>
 
 							<li class="oe_heading1">Sistema</li>
@@ -107,25 +107,31 @@
 							<li class="oe_heading">Favoritos</li>
 							<li class="oe_heading2"><a href="#"><img src="img/axe-menu/icon_paginacion.png" alt=""> AMIGU</a></li>
 							<li class="oe_heading2"><a href="#"><img src="img/axe-menu/brasero.png" alt=""> Brasero</a></li>
-							<li class="oe_heading2"><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#find-apps"><img src="img/axe-menu/softwarecenter.png" alt=""> Centro de Software</a></li>
+							<li class="oe_heading2"><a href="javascript:softwareSystem.open();"><img src="img/axe-menu/softwarecenter.png" alt=""> Centro de Software</a></li>
 							<li class="oe_heading2"><a href="#"><img src="img/axe-menu/addressbook.png" alt=""> Contacto</a></li>
 							<li class="oe_heading2"><a href="#"><img src="img/axe-menu/jockey-kde.png" alt=""> Controladores</a></li>
-							<li class="oe_heading2"><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#surf-the-web"><img src="img/axe-menu/cunaguaro.png" alt=""> Cunaguaro</a></li>
+							<li class="oe_heading2"><a href="javascript:firefoxSystem.open();"><img src="img/axe-menu/cunaguaro.png" alt=""> Cunaguaro</a></li>
 							<li class="oe_heading2"><a href="#"><img src="img/axe-menu/canaima-notas-icons.png" alt=""> Documentador</a></li>
 							<li class="oe_heading2"><a href="#"><img src="img/axe-menu/empathy.png" alt=""> Empathy</a></li>
 							<li class="oe_heading2"><a href="#"><img src="img/axe-menu/canaima-fondos-dinamicos.png" alt=""> Fondos dinámicos</a></li>
 							<li class="oe_heading2"><a href="#"><img src="img/axe-menu/gnome-sound-recorder.png" alt=""> Grabador</a></li>
-							<li class="oe_heading2"><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#check-email"><img src="img/axe-menu/guacharo.png" alt=""> Guacharo</a></li>
-							<li class="oe_heading2"><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#create-documents"><img src="img/axe-menu/libreoffice-writer.png" alt=""> Libre Office</a></li>
+							<li class="oe_heading2"><a href="javascript:emailSystem.open();"><img src="img/axe-menu/guacharo.png" alt=""> Guacharo</a></li>
+							<li class="oe_heading2"><a href="javascript:libreSystem.open('writer');"><img src="img/axe-menu/libreoffice-writer.png" alt=""> Libre Office</a></li>
 							<li class="oe_heading2"><a href="#"><img src="img/axe-menu/ksysguard.png" alt=""> Monitor de Sistema</a></li>
-							<li class="oe_heading2"><a href="#"><img src="img/axe-menu/rhythmbox.png" alt=""> Rhythmbox</a></li>
-							<li class="oe_heading2"><a href="http://tour.canaima.softwarelibre.gob.ve/canaima-tour.html#create-presentations"><img src="img/axe-menu/logo-turpial.png" alt=""> Turpial</a></li>
+							<li class="oe_heading2"><a href="javascript:rythenboxSystem.open();"><img src="img/axe-menu/rhythmbox.png" alt=""> Rhythmbox</a></li>
+							<li class="oe_heading2"><a href="javascript:libreSystem.open('impress');"><img src="img/axe-menu/logo-turpial.png" alt=""> Turpial</a></li>
 						</ul>
 					</div>			
 				</li>
 			</ul>	
 		</div>
-
+		<script type="text/javascript">
+		$(function() {
+				var $rhy_menu = $('#rhythmbox_menu');
+				$rhy_menu('click',function(){
+					alert("I am an alert box!");
+				})
+		</script>
         <!-- The JavaScript -->
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript">
@@ -135,6 +141,7 @@
 				var $oe_overlay		= $('#oe_overlay');
 
                 $oe_menu_items.bind('click',function(){
+					
 					var $this = $(this);
 					$this.addClass('slided selected');
 					$this.children('div').css('z-index','9999').stop(true,true).slideDown(2,function(){
@@ -1390,6 +1397,12 @@ En Canaima decidimos aventurarnos en tratar de combinar la robustez de Gnome con
 			<!--
 			* Folder System
 			-->
+			<p class="_red_folder_">
+				Red
+			</p>
+			<p class="_equipo_folder_">
+				Equipo
+			</p>
 			<p class="_home_folder_">
 				Carpeta personal
 			</p>
