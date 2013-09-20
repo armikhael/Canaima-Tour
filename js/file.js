@@ -68,14 +68,14 @@ function File($id, $url, $type, $name, $size, $date ,$location){
 			break;
 			case 'iso_i386':
 				if($type == 'display-icon'){
-					return  '<div class="file '+$type+'" data-type="iso"  data-id='+$id+'><a href="http://descargas.canaima.softwarelibre.gob.ve/canaima-popular-4.0~b1_i386.iso"><p><img src="img/folder/iso.png" /></a></p><a href="http://descargas.canaima.softwarelibre.gob.ve/canaima-popular-4.0~b1_i386.iso"><span>'+_name+'</span></a></div>';
+					return  '<div class="file '+$type+'" data-type="iso"  data-id='+$id+'><a href="http://descargas.canaima.softwarelibre.gob.ve/canaima-popular-4.0~b2_i386.iso"><p><img src="img/folder/iso.png" /></a></p><a href="http://descargas.canaima.softwarelibre.gob.ve/canaima-popular-4.0~b2_i386.iso"><span>'+_name+'</span></a></div>';
 				}else{
 					return  '<div class="file '+$type+'" data-type="iso"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
 				}
 			break;
 			case 'iso_amd64':
 				if($type == 'display-icon'){
-					return  '<div class="file '+$type+'" data-type="iso"  data-id='+$id+'><a href="http://descargas.canaima.softwarelibre.gob.ve/canaima-popular-4.0~b1_amd64.iso"><p><img src="img/folder/iso.png" /></a></p><a href="http://descargas.canaima.softwarelibre.gob.ve/canaima-popular-4.0~b1_amd64.iso"><span>'+_name+'</span></a></div>';
+					return  '<div class="file '+$type+'" data-type="iso"  data-id='+$id+'><a href="http://descargas.canaima.softwarelibre.gob.ve/canaima-popular-4.0~b2_amd64.iso"><p><img src="img/folder/iso.png" /></a></p><a href="http://descargas.canaima.softwarelibre.gob.ve/canaima-popular-4.0~b2_amd64.iso"><span>'+_name+'</span></a></div>';
 				}else{
 					return  '<div class="file '+$type+'" data-type="iso"  data-id='+$id+'><p></p><span>'+_name+'</span></div>';
 				}
